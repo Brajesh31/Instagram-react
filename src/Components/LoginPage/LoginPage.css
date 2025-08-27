@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #FAFAFA;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login_main{
+    display: flex;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.loginpage_logo{
+    width: 175px;
+    margin-top: 25px;
+}
+
+.loginpage_rightcomponent{
+    height: 400px;
+    width: 350px;
+    border: 1px solid #DBDBDB;
+    margin-top: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 2%;
+}
+
+.loginPage_signin{
+    margin-top: 25px;
+}
+
+.loginpage_text{
+    width: 250px;
+    height: 36px;
+    margin: 5px;
+    border: 1px solid #DBDBDB;
+    background-color: #FAFAFA;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.login_button{
+    width: 270px;
+    height: 36px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+    border: 1px solid #0395f6;
+    background-color: #0395f6;
+    color: white;
+}
+
+.login__ordiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.login_divider1{
+    width: 80px;
+    height: 0px;
+    margin-top: 23px;
+    border: 1px solid #DBDBDB;
+    margin-left: 3.6em;
+}
+
+.login_divider2{
+    width: 80px;
+    height: 0px;
+    border: 1px solid #DBDBDB;
+    margin-left: 13em;
+    margin-top: -2.9em;
+}
+
+.login_or{
+    font-weight: bold;
+    color: #BEBEBE;
+    margin-bottom: 2em;
+    margin-top: -0.7em;
+}
+
+.login_fb{
+    color: #395185;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.login_forgot{
+    color: rgba(var(--fe0, 0, 55, 107), 1);
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.loginpage_signupoption{
+    margin-top: 25px;
+    height: 56px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+    text-decoration: none;
+}
+
+.loginpage_sigin p{
+    margin-top: 1em;
+    font-size: 0.5em;
+    text-decoration: none;
+    color: #0395f6;
+}
+
+.loginpage_sigin a{
+    text-decoration: none;
+    color: #0395f6;
+}
+
+.loginpage_sigin span{
+    color: #0395f6;
+    text-decoration: none;
+}
+
+.loginpage_sigin{
+    font-size: 1em;
+}
+
+.loginpage_signup{
+    margin-top: 30px;
+}
+
+.loginpage_downloadsection{
+    height: 105px;
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.loginpage_option{
+    margin-top: 20px;
+}
+
+.loginpage_dwimg{
+    margin: 5px;
+}

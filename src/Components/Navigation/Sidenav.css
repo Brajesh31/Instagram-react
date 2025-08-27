@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.sidenav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.sidenav_logo{
+    width: 120px;
+    margin: 25px;
+}
+
+.sidenav_buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.sidenav_button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.128);
+}
+
+.sidenav_button > span{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    background: 0;
+}
+
+.sidenav_more{
+    position: fixed;
+    bottom: 3px;
+}
